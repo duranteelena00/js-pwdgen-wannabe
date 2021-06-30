@@ -22,5 +22,8 @@ var passwordPlaceholder = document.getElementById("password");
 console.log(passwordPlaceholder);
 
 //Inserisco il testo nell'elemento html
-passwordPlaceholder.innerText = userName + userLastName +
-userFavColor + "21";
+passwordPlaceholder.innerText = userName + userLastName + userFavColor + "21";
+
+/* bonus */
+var userPlaceholder = document.getElementById("user");
+userPlaceholder.innerText = userName + " " + userLastName;
